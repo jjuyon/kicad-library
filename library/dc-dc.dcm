@@ -1650,6 +1650,18 @@ K monolithic CMOS switched capacitor voltage converter invert double divide mult
 F http://cds.linear.com/docs/en/datasheet/660fa.pdf
 $ENDCMP
 #
+$CMP LTM4609
+D 36V IN , 34V OUT High Efficiency Buck-Boost DC/DC μModule Regulator
+K Buck-Boost DC/DC μModule Regulator
+F http://www.linear.com/docs/27543
+$ENDCMP
+#
+$CMP LTM4642
+D 20V IN , Dual 4A or Single 8A DC/DC μModule Regulator
+K Buck step-down DC/DC μModule
+F http://www.linear.com/docs/52551
+$ENDCMP
+#
 $CMP MAX1044
 D Switched-Capacitor Voltage Converter, 1.5V to 10.0V operating supply voltage, 10mA with a 0.5V output drop, SO-8/DIP-8/µMAX-8/TO-99
 K monolithic CMOS switched capacitor voltage converter invert double divide multiply boost
