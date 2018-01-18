@@ -46,6 +46,12 @@ K IQRF data controlled transceiver, GMSK modulation
 F http://iqrf.org/weben/downloads.php?id=337
 $ENDCMP
 #
+$CMP ESP-12E
+D 802.11 b/g/n Wi-Fi Module
+K 802.11 Wi-Fi
+F http://wiki.ai-thinker.com/_media/esp8266/docs/aithinker_esp_12f_datasheet_en.pdf
+$ENDCMP
+#
 $CMP HF-A11-SMT
 D WiFi IEEE802.11b/g/n with Ethernet Module, UART, GPIO
 K WiFi IEEE802.11 b/g/n
@@ -182,6 +188,18 @@ $CMP SIM900
 D GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set
 K GSM GPRS Quad-Band SMS FAX
 F http://www.simcom.us/act_admin/supportfile/SIM900_HD_V1.01(091226).pdf
+$ENDCMP
+#
+$CMP SPBTLE-RF
+D Very Low Power network processor module for BLE v4.1, Hub capabilities
+K BLE bluetooth module low-power
+F http://www.st.com/resource/en/datasheet/spbtle-rf.pdf
+$ENDCMP
+#
+$CMP SPBTLE-RF0
+D Very Low Power network processor module for BLE v4.1
+K BLE bluetooth module low-power
+F http://www.st.com/resource/en/datasheet/spbtle-rf0.pdf
 $ENDCMP
 #
 $CMP SX1272
